@@ -150,6 +150,20 @@ body {
     margin-top: 5px;
 }
 
+/* 今日の日付をハイライトするスタイル */
+.day.today .day-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ff6347; /* トマト色 */
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 /* クレジット表示スタイル */
 .credits {
     font-size: 0.75em;
