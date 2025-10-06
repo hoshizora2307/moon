@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>月齢カレンダー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="opening-screen" class="screen active">
+        <div class="opening-content">
+            <h1>🌕 月齢カレンダー 🌑</h1>
+            <p>月の満ち欠けを楽しもう</p>
+            <div class="credits opening-credits">
+                <p>製作者：hoshizora2307</p>
+                <p>監修：志歩</p>
+                <p>監督：高瀬 敏行</p>
+            </div>
+            <button id="start-button">カレンダーを見る</button>
+        </div>
+    </div>
+
+    <div id="calendar-screen" class="screen">
+        <div class="calendar-container">
+            <div class="header">
+                <button id="prev-month">＜</button>
+                <h2 id="current-month-year"></h2>
+                <button id="next-month">＞</button>
+            </div>
+            <div class="weekdays">
+                <span>日</span>
+                <span>月</span>
+                <span>火</span>
+                <span>水</span>
+                <span>木</span>
+                <span>金</span>
+                <span>土</span>
+            </div>
+            <div id="calendar-grid" class="calendar-grid"></div>
+        </div>
+        <div class="credits app-credits">
+            <p>製作者：hoshizora2307</p>
+            <p>監修：志歩</p>
+            <p>監督：高瀬 敏行</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
